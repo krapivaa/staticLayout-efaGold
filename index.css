@@ -1,0 +1,218 @@
+html {
+    background-color:#343434 ;
+    margin: 0;
+    padding: 0;
+  
+}
+
+.wrapper {
+    background-color:#343434 ;
+    margin: 0;
+}
+
+
+h1 {
+   color: white;
+   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-size: 48px;
+   font-weight: 1100;
+}
+
+h2 {
+   color: white;
+   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+   font-size: 25px;
+   font-weight: 350;
+} 
+
+h3 {
+   color: white;
+   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+   font-size: 20px;
+   font-weight: 400;
+}
+
+h4 {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: red;
+    flex: 1;
+    padding: 2px;
+    font-size: 40px;
+    font-weight: 1100;
+    margin: 5px;
+}
+
+p {
+   color: white;
+   font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+} 
+
+
+.first_page {
+    display: flex;;
+}
+
+.wrapper1 {
+
+    background-image: /*radial-gradient(rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0.70), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)),  */
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/3b48f428-24ed-4692-bb04-bc7771854131/087be50f-41d9-44bb-842b-8ddb05e1d4da/US-en-20200302-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.logo {
+    font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: red;
+    flex: 1;
+    padding: 2px;
+    font-size: 40px;
+    font-weight: 1100;
+    margin: 5px;
+   
+}
+
+.sign_in {
+    /* flex: 1;
+    float: right;
+    margin: 40px; */
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+
+
+
+.btn {
+    color: white;
+    background: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 4px;
+  
+  }
+
+  .email {
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    align-items: center; 
+}
+
+  .btn2 {
+    background-color: red;
+    color: white;
+    padding: 20px 28px;
+    margin: 20px 0;
+    border-radius: 2px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 500px;
+    opacity: 0.9;
+    position: relative;
+    z-index: 1;
+}
+.email_address {
+    padding: 50px 28px;
+    margin: 20px 0;
+    border-radius: 2px;
+}
+  
+  .btn2:hover {
+    opacity: 1;
+  }
+
+   
+  
+ .about {
+     text-align: center;
+     margin: 0 auto;
+ } 
+  
+
+ .top-half {
+    background-color: black;
+    height: 420px;
+    padding: 2px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    z-index: 1;
+ }
+
+
+
+ #right_image {
+    
+     height: 320px;
+     width: 620px;
+     position: relative;
+     z-index: 2;
+ }
+
+ .second_page {
+    display: flex;;
+}
+
+ .bottom-half {
+    background-color: black;
+    height: 420px;
+    padding: 2px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+    z-index: 1;
+ }
+
+ #left_image {
+    height: 300px;
+    width: 600px;
+    position: relative;
+    z-index: 2;
+ }
+
+ .left_text{
+    float: left;
+    clear: left;
+    overflow: auto;
+    padding-right: 1px;
+    margin-left: 50px;
+ }
+
+ .right_i {
+    float: right;
+    clear: right;
+    overflow: auto;
+    padding-right: 1px;
+    margin-right: 90px;
+ }
+
+ .right_text{
+    float: right;
+    clear: left;
+    overflow: auto;
+    padding-right: 1px;
+    margin-right: 50px;
+    margin-top: -300px;
+ }
+
+ .left_i {
+    float: left;
+    clear: right;
+    overflow: auto;
+    padding-right: 1px;
+    
+   
+ }
